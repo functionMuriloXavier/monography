@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Dicas</h5>
                     <p class="card-text">Fique por dentro das nossas dicas sobre bons artigos e boas monografias.</p>
-                    <a href="#" class="btn btn-primary">Espiar</a>
+                    <a href="/dicas" class="btn btn-primary">Espiar</a>
                 </div>
             </div>
         </div>
@@ -41,8 +41,8 @@
                 <img class="card-img-top" src="{{ asset('images/m04.jpg') }}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Contate-nos</h5>
-                    <p class="card-text">Possui alguma dúvida, sugestão ou report? Acesse esta seção.</p>
-                    <a href="#" class="btn btn-primary">Acessar</a>
+                    <p class="card-text">Possui alguma dúvida, sugestão ou report para informar? Acesse esta seção.</p>
+                    <a href="/contatos" class="btn btn-primary">Reportar</a>
                 </div>
             </div>
         </div>

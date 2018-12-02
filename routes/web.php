@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//Monografias
 Route::get('/monografias', 'MonografiaController@index');
 
 Route::get('/monografias/inserir', function(){
@@ -25,3 +26,15 @@ Route::get('/monografias/inserir', function(){
 
 Route::post('/monografias/inserir', 'MonografiaController@create');
 Route::get('/monografias/remover/{id}', 'MonografiaController@destroy');
+
+//Contatos
+Route::get('/contatos', function(){
+    return view('contatos.inserir');
+});
+
+Route::post('/contatos/inserir', 'ContatoController@create');
+
+//Dicas
+Route::get('/dicas', function(){
+    return view('dicas.welcome');
+});
